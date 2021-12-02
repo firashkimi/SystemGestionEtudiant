@@ -1,0 +1,140 @@
+.heading {
+    /* background: url(../image/heading-bg.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+.heading h1 {
+    color: #222;
+    font-size: 4rem;
+}
+
+.heading p {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #666;
+  }
+  
+  .heading p a {
+    color: #222;
+    padding-right: .5rem;
+  }
+  
+  .heading p a:hover {
+    color: #bac34e;
+  }
+  
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    padding: 1.2rem 0;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+    color: #222;
+  }
+  
+  .title span {
+    color: #bac34e;
+    padding-left: .7rem;
+  }
+  
+  .title a {
+    margin-left: auto;
+    color: #666;
+    font-size: 1.5rem;
+  }
+  
+  .title a:hover {
+    color: #bac34e;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: #bac34e;
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #222;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 9%;
+  }
+  
+  .header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #222;
+  }
+  
+  .header .logo i {
+    color: #bac34e;
+    padding-right: .5rem;
+  }
+  
+  .header .navbar a {
+    font-size: 1.7rem;
+    color: #666;
+    margin: 0 1rem;
+  }
+  
+  .header .navbar a:hover {
+    color: #bac34e;
+  }
+
+  .home {
+    padding-top: 14rem;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .home .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+    display: none;
+  }
+  .credit {
+    text-align: center;
+    background: #bac34e;
+    color: #fff;
+    font-size: 2rem;
+  }

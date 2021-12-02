@@ -1,0 +1,21 @@
+
+<header class="header">
+    <a routerLink="etudiants" class="logo"> <i class="fas fa-shopping-basket"></i> MPECOM </a>
+    <nav class="navbar">
+        <a routerLink="etudiants" >Tous Les Etudiants Disponibles</a>
+        <div id="login-btn" class="fas fa-user">
+        <a routerLink="create-etudiant" > Ajouter Etudiant</a></div>
+    
+    </nav>
+
+</header>
+
+<h1 class="text-center"> {{title}} </h1>
+<div class="home">
+<div class = "slide-container">
+    <router-outlet></router-outlet>
+</div>
+</div>
+<footer class = "footer">
+    <section class="credit">crée par Firas Hkimi | all rights reserved!</section>
+</footer>
